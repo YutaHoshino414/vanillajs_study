@@ -1,0 +1,61 @@
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <title>GitHub API</title>
+</head>
+<body>
+  <section class="hero is-link">
+      <div class="hero-body">
+        <p class="title">
+          GitHub Repository Ranking
+        </p>
+        <p class="subtitle">
+          GitHubの人気リポジトリを読んで、勉強しよう！
+        </p>
+      </div>
+  </section>
+  <section class="section">
+    <h1 class="title"></h1>
+    <h2 class="subtitle">
+      気になるプログラミング言語を入力して、検索してみてください。
+    </h2>
+    <div class="columns">
+      <div class="column is-half">
+        <!-- <input id="userId" type="text" placeholder="検索ワードを入力してください"  class="input is-link" /> -->
+      </div>
+      <div class="column">
+        <button class="button is-link" onclick="main();">検索</button>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <h1 class="title"></h1>
+    <h2 class="subtitle">
+      気になるuserを入力して、検索してみてください。
+    </h2>
+    <div class="columns">
+      <div class="column is-half">
+        <input id="userId" type="text" placeholder="検索ワードを入力してください"  class="input is-info" />
+      </div>
+      <div class="column">
+        <button class="button is-info" onclick="main();">検索</button>
+      </div>
+    </div>
+  </section>
+  <!-- OUTPUT -->
+  <section class="section">
+    <div class="columns">
+      <div id="result"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p class="copyright">©yhoshino 2022 </p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
