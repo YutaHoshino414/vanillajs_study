@@ -8,6 +8,9 @@
 サクッとhtml, css, javascriptを書きたいときに利用します。
 
 ## 起動
+```
+npm install  (*package install first)
+```
 
 ```sh
 yarn
