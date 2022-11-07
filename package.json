@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "reload -p 8081 -b -d src",
+    "start": "reload -p 8088 -b -d src",
     "lint": "eslint src/** --ext .html,.css,.js",
     "lint:fix": "yarn lint --fix"
   },
