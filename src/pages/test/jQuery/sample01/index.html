@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+          integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+          crossorigin="anonymous"></script>
+  <title>tr In-Out</title>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>タイトル1</th>
+        <th>タイトル2</th>
+        <th>タイトル3</th>
+      </tr>
+      <tr>
+        <th colspan="3" class="bgRadio"><input type="radio" id="radio02" name="sample_radios01" checked="checked" />非表示
+          <input type="radio" id="radio01" name="sample_radios01" />表示</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>項目1</td>
+        <td>項目2</td>
+        <td>項目3</td>
+      </tr>
+      <tr class="row" style="display:none;">
+        <td colspan="5" class="hide">
+          <p>非表示の行</p>
+        </td>
+      </tr>
+      <tr>
+        <td>項目1</td>
+        <td>項目2</td>
+        <td>項目3</td>
+      </tr>
+      <tr class="row" style="display:none;">
+        <td colspan="5" class="hide">
+          <p>非表示の行</p>
+        </td>
+      </tr>
+      <tr>
+        <td>項目1</td>
+        <td>項目2</td>
+        <td>項目3</td>
+      </tr>
+      <tr class="row" style="display:none;">
+        <td colspan="5" class="hide">
+          <p>非表示の行</p>
+        </td>
+      </tr>
+      <tr>
+        <td>項目1</td>
+        <td>項目2</td>
+        <td>項目3</td>
+      </tr>
+      <tr class="row" style="display:none;">
+        <td colspan="5" class="hide">
+          <p>非表示の行</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="index.js"></script>
+</body>
+</html>
